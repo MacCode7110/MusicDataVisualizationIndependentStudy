@@ -1,1 +1,2 @@
 # MusicDataVisualizationIndependentStudy
+# Section 1
