@@ -1,1 +1,2 @@
-print("Hello world.")
+# Currently Investigating inspiration for creating scatter plots from Spotify API data using ideas from this article:
+# https://towardsdatascience.com/visualizing-spotify-songs-with-python-an-exploratory-data-analysis-fc3fae3c2c09
