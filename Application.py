@@ -20,5 +20,7 @@ headers = {
 }
 data = {"grant_type": "client_credentials"}
 outcome = post(url, headers=headers, data=data)
-json_outcome = json.loads(outcome.content)  # The deserialization of outcome.content produces an array of bytes.
+json_outcome = json.loads(outcome.content)  # The deserialization of outcome.content produces a json object
 access_token = json_outcome["access_token"]
+authorization_header = {"Authorization": "Bearer " + access_token}
+
